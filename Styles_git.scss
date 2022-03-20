@@ -1,29 +1,49 @@
-$font_and_background: rgb(197, 205, 207);
+$font_and_background: rgb(219, 174, 236);
+$code_color: rgb(31, 13, 13);
 .code {
-    background-color: black;
+    background-color: $code_color;
     font-family: consolas;
     font-size: 15px;
-    color: lightseagreen;
+    color: $font_and_background;
     padding: 5px;
     border: solid 1px whitesmoke;
     border-radius: 5px;
-    margin-left: 50px;
-    margin-right: 70px;
+    margin-left: 10px;
+    margin-right: 100px;
+    padding-left: 10px;
   }
   
-  body {
+ #content {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     background-color: lightyellow;
+    margin: 20px;
+    border: solid $code_color 3px;
+    padding: 20px;
+    border-radius: 7px;
   }
 
   #example_code{
-    background-color: black;
+    background-color: $code_color;
     font-family: consolas;
     font-size: 15px;
-    color: lightseagreen;
+    color: $font_and_background;
     padding: 5px;
     border: solid 1px whitesmoke;
     border-radius: 5px;
     width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+  }
+
+  #grid{
+    display: grid;
+    grid-column-gap: 5px;
+		grid-row-gap: 5px;
+		grid-template-columns: 900px auto;
+  }
+  
+  img{
+    width: 400px;
   }

@@ -1,29 +1,50 @@
 .code {
-  background-color: black;
+  background-color: #1f0d0d;
   font-family: consolas;
   font-size: 15px;
-  color: lightseagreen;
+  color: #dbaeec;
   padding: 5px;
   border: solid 1px whitesmoke;
   border-radius: 5px;
-  margin-left: 50px;
-  margin-right: 70px;
+  margin-left: 10px;
+  margin-right: 100px;
+  padding-left: 10px;
 }
 
-body {
+#content {
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
   background-color: lightyellow;
+  margin: 20px;
+  border: solid #1f0d0d 3px;
+  padding: 20px;
+  border-radius: 7px;
 }
 
 #example_code {
-  background-color: black;
+  background-color: #1f0d0d;
   font-family: consolas;
   font-size: 15px;
-  color: lightseagreen;
+  color: #dbaeec;
   padding: 5px;
   border: solid 1px whitesmoke;
   border-radius: 5px;
   width: 300px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: left;
+}
+
+#grid {
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  -ms-grid-columns: 900px auto;
+      grid-template-columns: 900px auto;
+}
+
+img {
+  width: 400px;
 }
 /*# sourceMappingURL=Styles_git.css.map */

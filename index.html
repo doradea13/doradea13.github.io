@@ -6,54 +6,61 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="Styles_git.css">
 </head>
+    
 <body>
+    <h1>Git multi-purpose command lines</h1>
+    <div id="grid">
+    <div id="content">
     Hello, boy! <br>
 
     To add a file in the repository:
     <div class="code">
         git add $file$
-    </div>
-    To add a commitment 
+    </div> <br>
+
+    To add a commitment:
     <div class="code">
         git commit -m "Your edit messages here"
-    </div>   
+    </div> <br>
+
     Getting the git status you can see how often commitments have you done
     so far:
     <div class="code">
         git status
-    </div>
+    </div> <br>
+
     Adding the comand to push, you upload the data you have done:
     <div class="code">
         git push -u
-    </div>
+    </div> <br>
+
     The commit -m is just to commit a unique file at a time, if u want to 
     commit a lot of files, use:
     <div class="code">
         git commit -am "message here"
-    </div>
+    </div> <br>
+
     And if your are working with more people, you can download the new code:
     <div class="code">
         git pull
-    </div><br>
-
-    So I'm editing this File rn and this should appear when a get the command pull :). And yes it does XD<br><br>
+    </div><br><br>
 
     In a conflict(A partner edits a part and you also edits that part, in a different way), github
     would automatically put a text like: <br>
 
-    <div align="center" id="example_code">
+    <div align="center"><div id="example_code">
     Code hasn't change <br>
     <<<<<<<<<<<<<<<<<<<< <br>
     %Your code part modified%    <br>
     ==================== <br>
     %Your partner part modified% <br>
-    >>>>>>>>>>>>>>>>>>>> <br><br>
-    </div>
+    >>>>>>>>>>>>>>>>>>>>
+    </div></div>
 
     To see who have made edits yo can run:
     <div class="code">
         git log 
-    </div>
+    </div> <br>
 
     Every commit has an id, this id can be used to reset the repository:
     <div class="code">
@@ -70,17 +77,23 @@
     To get a new branch you can text <br>
     <div class="code">
         git checkout -b "Name Of the new branch"
-    </div>
+    </div> <br>
 
     To switch between branches you can use:
     <div class="code">
         git checkout "branch Name"
-    </div>
+    </div> <br>
 
     If we say you have complete the other branch(Feature) 
     and now you wanna merge it, then:
     <div class="code">
         git merge "Branch Name"
+    </div></div>
+    <div>
+        <img src="https://git-scm.com/images/logos/downloads/Git-Icon-Black.png">
+        <img src="http://thakshashila.com/content/images/2018/09/Git-Logo-Black.png">
+    </div>
+    <div></div>
     </div>
 
 
