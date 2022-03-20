@@ -15,7 +15,7 @@
     </div>
     To add a commitment 
     <div class="code">
-        git commit -m "Your message of changes here"
+        git commit -m "Your edit messages here"
     </div>   
     Getting the git status you can see how often commitments have you done
     so far:
@@ -34,46 +34,50 @@
     And if your are working with more people, you can download the new code:
     <div class="code">
         git pull
-    </div>
-    So I'm editing this File rn and this should appear when a get the command pull :). And yes it does XD
-<br><br>
+    </div><br>
+
+    So I'm editing this File rn and this should appear when a get the command pull :). And yes it does XD<br><br>
+
     In a conflict(A partner edits a part and you also edits that part, in a different way), github
     would automatically put a text like: <br>
     Code hasn't change <br>
-    <<<<< <br>
-    /Your code part modified/    <br>
-    ===== <br>
-    /Your partner part modified/ <br>
-    >>>>> <br>
+    <<<<<<<<<<<<<<<<<<<< <br>
+    %Your code part modified%    <br>
+    ==================== <br>
+    %Your partner part modified% <br>
+    >>>>>>>>>>>>>>>>>>>> <br><br>
 
-    <br>
     To see who have made edits yo can run:
     <div class="code">
         git log 
     </div>
+
     Every commit has an id, this id can be used to reset the repository:
     <div class="code">
         git reset "id"
-    </div>
-    <br>
+    </div> <br>
+
     U can get a lot of branches, adding new futures and etc, the "head" is referred as
-    the main branch, where is the main code. <br>
-    typing <br>
+    the main branch, where is the main code. Typing: <br>
     <div class="code">
         git branch 
     </div>
-    You get the branch you currently are. To get a new branch you can text <br>
+    You get the branch you currently are. <br><br>
+    
+    To get a new branch you can text <br>
     <div class="code">
         git checkout -b "Name Of the new branch"
     </div>
+
     To switch between branches you can use:
     <div class="code">
         git checkout "branch Name"
     </div>
+    
     If we say you have complete the other branch(Feature) 
-    and now you wanna maerge it, then:
+    and now you wanna merge it, then:
     <div class="code">
-        git merge "Branche Name"
+        git merge "Branch Name"
     </div>
 
 
